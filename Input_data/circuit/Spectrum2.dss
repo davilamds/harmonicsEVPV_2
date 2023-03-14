@@ -1,0 +1,11 @@
+New Spectrum.Spectrum_EV1 NumHarm=7 harmonic=(1, 3, 5, 7, 9, 11,13) %mag=(100, 0, 0, 0, 0, 0,0) angle=(0, 0, 0, 0, 0, 0,0)
+
+New Spectrum.Spectrum_EV2 NumHarm=7 harmonic=(1, 3, 5, 7, 9, 11,13) %mag=(100, 0, 0, 0, 0, 0,0) angle=(0, 0, 0, 0, 0, 0,0)
+
+New Spectrum.Spectrum_EV3 NumHarm=7 harmonic=(1, 3, 5, 7, 9, 11,13) %mag=(100, 0, 0, 0, 0, 0,0) angle=(0, 0, 0, 0, 0, 0,0)
+
+New Spectrum.Spectrum_EV4 NumHarm=7 harmonic=(1, 3, 5, 7, 9, 11,13) %mag=(100, 0, 0, 0, 0, 0,0) angle=(0, 0, 0, 0, 0, 0,0)
+
+New Spectrum.Spectrum_EV5 NumHarm=7 harmonic=(1, 3, 5, 7, 9, 11,13) %mag=(100, 0, 0, 0, 0, 0,0) angle=(0, 0, 0, 0, 0, 0,0)
+
+New Spectrum.Spectrum_EV6 NumHarm=7 harmonic=(1, 3, 5, 7, 9, 11,13) %mag=(100, 0, 0, 0, 0, 0,0) angle=(0, 0, 0, 0, 0, 0,0)
