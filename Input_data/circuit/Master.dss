@@ -1,0 +1,30 @@
+clear
+
+Set DefaultBaseFrequency=50  ! for European system
+
+New circuit.circuit bus1=SourceBus BasekV=11 pu=1  ISC3=3000  ISC1=5
+
+
+!Edit Vsource.Source BasekV=11 pu=1.05  ISC3=3000  ISC1=5
+Redirect Spectrum.dss
+Redirect LineCode.txt
+Redirect LoadShapes.txt
+Redirect Lines.txt
+Redirect Transformers.txt
+Redirect Loads.txt
+!Redirect Photovoltaic.txt
+!Redirect Photovoltaic2.txt
+Redirect EVLoadShapes.txt
+!Redirect vehicles.txt
+!Redirect Monitors.txt
+
+new energymeter.subs element=line.line1 terminal=1
+
+Set voltagebases=[11  .416]
+Calcvoltagebases
+
+buscoords Buscoords.dss
+solve
+
+
+
